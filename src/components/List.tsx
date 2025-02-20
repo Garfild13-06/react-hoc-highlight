@@ -3,8 +3,7 @@ import {HighlightedVideo} from '../App';
 
 interface ListItem {
     type: string;
-
-    [key: string]: any;
+    [key: string]: string;
 }
 
 interface ListProps {
